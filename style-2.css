@@ -1,3 +1,7 @@
+body{
+  font-family: "Raleway", sans-serif; /*шрифт*/
+}
+
 .header-bd {
     overflow: hidden;
     margin-top: 0%;
@@ -188,4 +192,40 @@ a{
 
 .open-dialog{
     z-index: 100;
+}
+#dialog-1{
+  z-index: 100;
+}
+#closeDialog{
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.tab-scroll{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 400px;
+}
+.table-1{
+  font-family: "Raleway", sans-serif; /*шрифт*/
+  font-weight: bolder;
+  height: 100%;
+  caption-side: top;
+}
+.table-1 thead th{
+  border: 1px solid black;
+  padding: 10px 15px;
+  text-align: left;
+  background-color: rgb(50, 50, 190);
+}
+.table-1 tbody td{
+  position: relative;
+  border: 1px solid black;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #b4b4b4;
 }
